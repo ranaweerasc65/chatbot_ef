@@ -1,0 +1,21 @@
+
+{
+    "region" : "ap-southeast-1",
+    "profile" : "sachini",
+    "configuration" : "Release",
+    "framework"     : "net6.0",
+    "function-name" : "chatbot-api-on-lambda",
+    "package-type"  : "Zip",
+    "function-handler" : "chatbot_ef",
+    "function-memory-size" : 256,
+    "function-role"        : "arn:aws:iam::960884446408:role/lambda_exec_chatbot-api-on-lambda",
+    "function-timeout"     : 10,
+    "function-runtime"     : "dotnet6",
+    "function-architecture" : "x86_64",
+    "function-subnets"      : "",
+    "function-security-groups" : "",
+    "tracing-mode"             : "PassThrough",
+    "environment-variables"    : "",
+    "image-tag"                : "",
+    "function-description"     : ""
+}
